@@ -58,8 +58,8 @@ if(getFood!==null&&getFood!==undefined){
     dog.velocityX=500
    
 
- //   Food.deduct();
-  //  Food.updateFoodStock();
+    Food.deduct();
+    Food.updateFoodStock();
     getfeedTime();
 
     dog_sprite.addImage(happydog)
